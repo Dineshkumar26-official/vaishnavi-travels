@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Travels - Transport Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 30px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px;
+            margin: 5px 0;
+            background-color: #f8f8f8;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Vaishnavi Travels</h1>
+    <p>Your Trusted Transport Partner</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="content" id="home">
+    <h2>About Vaishnavi Travels</h2>
+    <p>At Vaishnavi Travels, we provide reliable and affordable transport services for all your travel and logistics needs. Whether you're moving goods, going on a trip, or need roadside assistance, we have you covered with our diverse services.</p>
+</div>
+
+<div class="content" id="services">
+    <h2>Our Services</h2>
+    <p>We offer a wide range of services to cater to your transport and logistics needs:</p>
+    <ul>
+        <li><strong>DCM Transport</strong>: Large vehicle transport for moving goods across distances with a fleet of reliable vehicles.</li>
+        <li><strong>Packers and Movers</strong>: Secure and professional packing and moving services to make your relocation process smooth and easy.</li>
+        <li><strong>Car Rentals</strong>: Rent a car for your personal or business trips, available at competitive rates.</li>
+        <li><strong>Mechanic Services</strong>: On-the-go mechanic services for vehicle breakdowns, repairs, and maintenance.</li>
+    </ul>
+</div>
+
+<div class="content" id="booking">
+    <h2>Book Your Service</h2>
+    <p>Fill out the form below to book your transport or service with us. We will get back to you as soon as possible.</p>
+    <form>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="service">Select Service:</label><br>
+        <select id="service" name="service">
+            <option value="dcm">DCM Transport</option>
+            <option value="packers">Packers and Movers</option>
+            <option value="car">Car Rentals</option>
+            <option value="mechanic">Mechanic Services</option>
+        </select><br><br>
+
+        <label for="date">Date of Service:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+
+        <input type="submit" value="Book Now">
+    </form>
+</div>
+
+<div class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or want to inquire about our services, feel free to reach out!</p>
+    <p>Email: <a href="mailto:bdk5099@gmail.com">bdk5099@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918686128523">8686128523</a></p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Vaishnavi Travels - All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
